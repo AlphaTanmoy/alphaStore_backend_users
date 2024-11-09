@@ -1,15 +1,13 @@
-package com.AlphaStore.Users;
+package com.AlphaStore.Users
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.runApplication
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class UsersApplication {
+class UsersApplication
 
-	public static void main(String[] args) {
-		SpringApplication.run(UsersApplication.class, args);
-	}
-
+fun main(args: Array<String>) {
+    runApplication<UsersApplication>(*args)
 }
